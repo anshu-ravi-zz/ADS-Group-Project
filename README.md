@@ -14,26 +14,28 @@ In order to ensure output reproducibility, please see if the following condition
     i) Re is an inbuilt library which comes as a part of the standard library module 
     ii) heapq_max on the other hand needs to be downloaded in order for the program to run. 
     In order to download the library, either use the GUI in your IDE or go to your terminal and type the following command 
-    ```python
+    ```
     pip install heapq_max
     ```
-    
+  Now that we have the required libraries set up. Go the the file named $app.py$ and execute the program through your IDE or go to the terminal and type the following command 
+  For mac - ```python3 app.py```
+  For Windows - ```python app.py```
 
 # USAGE
-After a user enters our platform, he will be welcomed and asked what his intentions are: Posting a new job, searching for a job, or closing a job position.
+After a user enters our platform, they will be welcomed and asked what their intentions are: Posting a new job, searching for a job, or closing a job position.
 After being validated, this choice will conduct the user onto a different function. We will now go through the three different choices:
 
 1. Posting a new job:
 Our job inserting function has the purpose of enabling club representatives to upload available job positions.
 It will first ask the user to type in the following information about the job he wants to post: 
 a job title, the position, the club, the location (Madrid, Segovia or Online), an email address, the time of the year (spring or fall), and a job description.
-Once all of this information has been inserted and validated by our algorithm, the job will be added into our default jobs function and stored as a hash table.
+Once all of this information has been inserted and validated by our algorithm, the job will be added into our default jobs function and stored in a hash table.
 This default jobs function is responsible for storing all of the available job positions.
 The user will receive a final message confirming that the job has been correctly uploaded, as well as the information of the job itself.
 
 2. Searching for a job:
-Our job searching function has the purpose of showing IE students the available job positions that better match their preferences.
-It will start by displaying a list with all available positions, filtering out any duplicates.
+Our job searching function has the purpose of showing IE students the available job positions that best match their preferences.
+It will start by displaying a list with all available positions showing only unique titles. 
 The user will then be asked in what position he is interested in.
 He will also be asked the location he would like to work in (Madrid, Segovia or Online), and the time of the year (spring or fall).
 With these three choices in mind, our algorithm will go through all available job positions inside the job default function, filtering out those who share none of the users requests about position, location and time.
@@ -47,8 +49,18 @@ Then, he will be asked the name of the job he wishes to remove.
 After validating his input, the function will remove the job from the storage function.
 The user will be shown a message saying that the job removal was successful.
 
-# CREDITS
+In order to carry out our objective, we have incorporated the following data structures 
+  1. Hash Tables - Used to store all details regarding the opportunities 
+  2. Heaps - used to find the most appropriate opportunity for the user based on their preferences
+and the following Algorithms 
+  1. Insertion 
+  2. Deletion 
+  3. Searching 
 
+
+# CREDITS
+The authors for this project are 
+Anshumaan Ravi - @anshu_ravi 
 
 
 
