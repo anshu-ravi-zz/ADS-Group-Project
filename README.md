@@ -60,7 +60,12 @@ and the following Algorithms
 
 # CREDITS
 The authors for this project are 
-Anshumaan Ravi - @anshu_ravi 
+Abdul Salam
+Anshumaan Ravi
+Isabel Ordovas
+Natalia Caceres 
+Natalia Nowak 
+
 
 
 
