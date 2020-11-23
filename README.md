@@ -52,6 +52,7 @@ The user will be shown a message saying that the job removal was successful.
 In order to carry out our objective, we have incorporated the following data structures 
   1. Hash Tables - Used to store all details regarding the opportunities 
   2. Heaps - used to find the most appropriate opportunity for the user based on their preferences  
+
 and the following Algorithms   
   1. Insertion 
   2. Deletion 
