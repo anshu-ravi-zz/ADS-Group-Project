@@ -17,9 +17,9 @@ In order to ensure output reproducibility, please see if the following condition
     ```
     pip install heapq_max
     ```
-  Now that we have the required libraries set up. Go the the file named $app.py$ and execute the program through your IDE or go to the terminal and type the following command 
-  For mac - ```python3 app.py```
-  For Windows - ```python app.py```
+  Now that we have the required libraries set up. Go the the file named $app.py$ and execute the program through your IDE or go to the terminal and type the following command   
+  For mac - ```python3 app.py```  
+  For Windows - ```python app.py```  
 
 # USAGE
 After a user enters our platform, they will be welcomed and asked what their intentions are: Posting a new job, searching for a job, or closing a job position.
@@ -51,20 +51,20 @@ The user will be shown a message saying that the job removal was successful.
 
 In order to carry out our objective, we have incorporated the following data structures 
   1. Hash Tables - Used to store all details regarding the opportunities 
-  2. Heaps - used to find the most appropriate opportunity for the user based on their preferences
-and the following Algorithms 
+  2. Heaps - used to find the most appropriate opportunity for the user based on their preferences  
+and the following Algorithms   
   1. Insertion 
   2. Deletion 
   3. Searching 
 
 
 # CREDITS
-The authors for this project are 
-Abdul Salam
-Anshumaan Ravi
-Isabel Ordovas
-Natalia Caceres 
-Natalia Nowak 
+The authors for this project are   
+Abdul Salam  
+Anshumaan Ravi  
+Isabel Ordovas  
+Natalia Caceres   
+Natalia Nowak   
 
 
 
