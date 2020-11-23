@@ -16,7 +16,7 @@ Our job inserting function has the purpose of enabling club representatives to u
 It will first ask the user to type in the following information about the job he wants to post: 
 a job title, the position, the club, the location (Madrid, Segovia or Online), an email address, the time of the year (spring or fall), and a job description.
 Once all of this information has been inserted and validated by our algorithm, the job will be added into our default jobs function and stored as a hash table.
-The default jobs function is responsible for storing all of the available job positions.
+This default jobs function is responsible for storing all of the available job positions.
 The user will receive a final message confirming that the job has been correctly uploaded, as well as the information of the job itself.
 
 2. Searching for a job:
