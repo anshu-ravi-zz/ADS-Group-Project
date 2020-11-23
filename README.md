@@ -1,9 +1,12 @@
-# ADS-Group-Project
-______ is a platform that contains all club related opportunities/leadership positions 
+# Project Name - Pied Piper 
+## ADS - Group Project 
+Pied Piper is a platform that contains all club related opportunities/leadership positions 
 
 Our platform has two main functions:
 1. It allows club representatives looking to hire to post available job positions at their clubs
 2. It allows IE Students to search among the available positions to find their ideal job
+
+
 
 # INSTALLATION
 
