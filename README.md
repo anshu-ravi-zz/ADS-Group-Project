@@ -1,5 +1,4 @@
 # Project Name - Pied Piper 
-## ADS - Group Project 
 Pied Piper is a platform that contains all club related opportunities/leadership positions 
 
 Our platform has two main functions:
@@ -9,6 +8,16 @@ Our platform has two main functions:
 
 
 # INSTALLATION
+In order to ensure output reproducibility, please see if the following conditions are met 
+  1. Python programming language - version 3.6.10 (It will work in all versions above 3.6 until 3.8. Despite Python launching 3.9 recently, due to libraries not getting updated, we would advise our users to stick to version 3.6 or 3.7) 
+  2. Libraries - In order to run our program, we make use of the following 2 libraries heapq_max and re
+    i) Re is an inbuilt library which comes as a part of the standard library module 
+    ii) heapq_max on the other hand needs to be downloaded in order for the program to run. 
+    In order to download the library, either use the GUI in your IDE or go to your terminal and type the following command 
+    ```python
+    pip install heapq_max
+    ```
+    
 
 # USAGE
 After a user enters our platform, he will be welcomed and asked what his intentions are: Posting a new job, searching for a job, or closing a job position.
