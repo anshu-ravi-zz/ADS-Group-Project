@@ -27,7 +27,7 @@ The user will now have to enter their choice. After their choice is validated, t
 
 
 1) Posting a new job: - Our job inserting function has the purpose of enabling club representatives to upload available job positions.   
-    - The user will be asked to enter the following details about the job   
+    - The user will first be asked to enter some details about the job
     - **User input**: A job title, the position, the club, the location (Madrid, Segovia or Online), an email address, the time of the year (spring or fall), and a job description.  
     - **Output**: A confirmatory message saying that the job has been added.   
 
