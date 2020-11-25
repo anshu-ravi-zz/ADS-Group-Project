@@ -36,10 +36,7 @@ Once all of this information has been inserted and validated by our algorithm, t
 2) Searching for a job:
 Our job searching function has the purpose of showing IE students the available job positions that best match their preferences.
 It will start by displaying a list with all available positions showing only unique titles. 
-The user will then be asked:
-  - The position he is interested in.
-  - The location he would like to work in (Madrid, Segovia or Online).
-  - The time of the year (spring or fall).
+The user will then be asked: The position he is interested in, the location he would like to work in (Madrid, Segovia or Online), and the time of the year (spring or fall).
 With these three choices in mind, our algorithm will go through all available job positions inside the job default function. It will sort the jobs so that those that are     more compatible with the student (they contain more priorities) will be shown first. 
 The jobs that share no priorities will be filtered out.
 The user will get the sorted list of compatible jobs as an output.
